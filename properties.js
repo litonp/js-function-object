@@ -6,11 +6,14 @@ var shoppingCart = {
     pen: 20
 }
 var penCount = shoppingCart.pen;
-// console.log(penCount);
+console.log(penCount);
+
 var penCount2 = shoppingCart['pen'];
-// console.log(penCount2);
+console.log(penCount2);
+
 var properties = Object.keys(shoppingCart);
-// console.log(properties);
+console.log(properties);
+
 var propertyValues = Object.values(shoppingCart);
 console.log(propertyValues);
 
@@ -19,4 +22,4 @@ console.log(shoppingCart);
 
 var propertyName = 'books';
 var propertyValue = shoppingCart[propertyName];
-// console.log(propertyName, propertyValue);
+console.log(propertyName, propertyValue);
